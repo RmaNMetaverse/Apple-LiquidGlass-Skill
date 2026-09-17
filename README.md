@@ -3,6 +3,7 @@
 Universal AI agent skill for implementing realistic WebGL liquid glass refraction, blur, chromatic aberration, and lighting effects using [`@ybouane/liquidglass`](https://github.com/ybouane/liquidglass) ([Live Demo](https://liquid-glass.ybouane.com/)).
 
 Compatible with:
+- **GitHub Copilot (`.github/skills/`)**
 - **Google Antigravity & Antigravity CLI (`agy`)**
 - **Anthropic Claude Code (`claude`)**
 - **OpenAI Codex CLI & ChatGPT (`codex`)**
@@ -25,10 +26,11 @@ curl -fsSL https://raw.githubusercontent.com/RmaNMetaverse/Apple-LiquidGlass-Ski
 
 ---
 
-## 📂 Manual Installation Locations
+## 📂 Installation Directories
 
 | Agent | Global Directory | Project-Level Directory |
 | :--- | :--- | :--- |
+| **GitHub Copilot** | `.github/skills/liquidglass/` | `.github/skills/liquidglass/` |
 | **Antigravity / Gemini** | `~/.gemini/config/skills/liquidglass/` | `.agents/skills/liquidglass/` |
 | **Claude Code** | `~/.claude/skills/liquidglass/` | `.claude/skills/liquidglass/` |
 | **ChatGPT / Codex** | `~/.codex/skills/liquidglass/` | `.codex/skills/liquidglass/` |
@@ -36,6 +38,8 @@ curl -fsSL https://raw.githubusercontent.com/RmaNMetaverse/Apple-LiquidGlass-Ski
 
 ---
 
+## 🛠️ Verification Checklist
 
-**Submited to Skill Registries & Agent Hubs**:
-   - Submitted to the official [Agent Skills Hub / Directory](https://github.com/topics/agent-skills).
+- [x] **Metadata**: Valid YAML frontmatter in `SKILL.md` with lowercase, single-word/hyphenated `name: liquidglass` and keyword-rich `description`.
+- [x] **Structure**: Standard repository structure with `.github/skills/liquidglass/SKILL.md` for GitHub Copilot and root `SKILL.md` for Claude, Codex, Antigravity, and generic agents.
+- [x] **1-Line Installers**: PowerShell (`install.ps1`) and Bash (`install.sh`) scripts that support both remote execution (`irm | iex` / `curl | bash`) and local execution.
