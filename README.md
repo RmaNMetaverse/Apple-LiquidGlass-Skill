@@ -15,12 +15,12 @@ Compatible with:
 
 ### Windows (PowerShell)
 ```powershell
-irm https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/liquidglass-skill/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/RmaNMetaverse/liquidglass-skill/main/install.ps1 | iex
 ```
 
 ### macOS / Linux (Bash)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/liquidglass-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/RmaNMetaverse/liquidglass-skill/main/install.sh | bash
 ```
 
 ---
