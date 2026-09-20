@@ -1,5 +1,7 @@
 # LiquidGlass AI Agent Skill
 
+https://github.com/user-attachments/assets/3cb9c731-5b5f-4726-9866-d704fd167ff0
+
 Universal AI agent skill for implementing realistic WebGL liquid glass refraction, blur, chromatic aberration, and lighting effects using [`@ybouane/liquidglass`](https://github.com/ybouane/liquidglass) ([Live Demo](https://liquid-glass.ybouane.com/)).
 
 Compatible with:
